@@ -1,0 +1,52 @@
+body{
+    background-color: bisque;
+}
+div.caption{
+    background-color: #435D7D;
+    color: beige;
+    padding: 5px;
+    display: table-caption;
+    
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top:0;
+    bottom:0;
+    left: 0;
+    right:0;
+    color: beige;
+    display: none;
+}
+.header {
+    border-bottom:1px solid black;
+    border-color: wheat;
+}
+i{
+    cursor: pointer;
+}
+ .btns {
+    padding: 3px;
+    border-top:1px solid black;
+    border-color: wheat;
+    text-align: center;
+    margin-left: auto;
+ }
+/* .btns button:nth-of-type(2){
+    background-color: aqua;
+} */
+tbody tr{
+    cursor: pointer;
+}
+.deleteAll{
+    width: 20%;
+    text-align: center;
+    background-color: cadetblue;
+    color: black;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.error{
+    display: none;
+}
